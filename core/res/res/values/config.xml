@@ -6143,6 +6143,9 @@
     <!-- Expected value from fast charging status file  -->
     <string name="config_oemFastChargerStatusValue" translatable="false">1</string>
 	
+	<!-- Whether device has dash charging support -->
+    <bool name="config_hasDashCharger">false</bool>
+	
 	<!-- Array containing custom error messages from vendor. -->
     <string-array name="face_error_vendor" translatable="false">
         <item>@string/face_unlock_disabled_idle</item>

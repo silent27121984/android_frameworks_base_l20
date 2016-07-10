@@ -2843,6 +2843,10 @@
     <!-- Label for the close button on switch to work profile dialog. Switch to work profile dialog guide users to make call from work
     profile dialer app as it's not possible to make call from current profile due to an admin policy.[CHAR LIMIT=60] -->
     <string name="call_from_work_profile_close">Close</string>
+	
+	<!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+	<string name="keyguard_indication_dash_charging_time" formatted="false"><xliff:g id="percentage">%2$s</xliff:g> • Dash Charging (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> until full)</string>
+    <string name="keyguard_plugged_in_dash_charging">Dash Charging</string>
 
     <!--
     Label for a menu item in a menu that is shown when the user wishes to configure the lock screen.
