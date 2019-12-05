@@ -4926,6 +4926,9 @@
   <!-- Whether device has dash charging support -->
   <java-symbol type="bool" name="config_hasDashCharger" />
   
+  <!-- Whether device has warp charging support -->
+  <java-symbol type="bool" name="config_hasWarpCharger" /> 
+  
   <!-- Enable face auth only when swiping security view -->
   <java-symbol type="bool" name="config_faceAuthOnlyOnSecurityView" />
 
