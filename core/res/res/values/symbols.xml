@@ -4929,6 +4929,9 @@
   <!-- Whether device has warp charging support -->
   <java-symbol type="bool" name="config_hasWarpCharger" /> 
   
+  <!-- Whether device has VOOC charging support -->
+  <java-symbol type="bool" name="config_hasVoocCharger" />  
+  
   <!-- Enable face auth only when swiping security view -->
   <java-symbol type="bool" name="config_faceAuthOnlyOnSecurityView" />
 
