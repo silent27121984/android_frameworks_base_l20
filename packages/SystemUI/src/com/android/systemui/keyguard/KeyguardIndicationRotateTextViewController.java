@@ -128,6 +128,9 @@ public class KeyguardIndicationRotateTextViewController extends
         long minShowDuration = getMinVisibilityMillis(mIndicationMessages.get(mCurrIndicationType));
         final boolean hasNewIndication = newIndication != null
                 && !TextUtils.isEmpty(newIndication.getMessage());
+				
+		mView.setAnimationsEnabled(!mIndicationQueue.contains(type));				
+				
         if (!hasNewIndication) {
             mIndicationMessages.remove(type);
             mIndicationQueue.removeIf(x -> x == type);
