@@ -6133,6 +6133,9 @@
 
     <!-- Power press vendor code. -->
     <integer name="config_powerPressCode">-1</integer>
+	
+	    <!-- Whether to cancel fingerprint operation if not idle -->
+    <bool name="config_fpCancelIfNotIdle">false</bool>
 
     <!-- Whether to show weather on the lock screen by default. -->
     <bool name="config_lockscreenWeatherEnabledByDefault">false</bool>
